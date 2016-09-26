@@ -1,0 +1,17 @@
+Title: Determine License and Vulnerability information
+Primary Actor: Corporate Manager
+Goal in Context: The corporate manager is able to determine license and vulnerability information from provided search query to the database
+Stakeholders: 
+	- Corporate Manager: To Receive clear and relevant license and vulnerability information
+	- Corporate Developer: To Provide the relevant file/package level information for the corporate developer
+Preconditions
+	- Relevant file/package information is in the SPDX database
+	- Proper project information has been uploaded
+  - All licenses have been extracted from each individual package file
+  - All known vulnerabilities have been scanned
+Main Success Scenario
+	- Corporate manager receieves accurate license and vulnerability information for the requesed project packages
+Failed End Conditions
+	- Corporate manager receives inaccurate or invalid license and vulnerability information for the requested project packages
+Trigger
+	- Corporate manager uploads or identifies project information to which license and vulnerability information is provided
